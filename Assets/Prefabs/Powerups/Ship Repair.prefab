@@ -131,7 +131,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!114 &11400000
 MonoBehaviour:
@@ -145,8 +145,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosion: {fileID: 0}
-  scoreValue: 0
-  weight: 100
+  scoreValue: -50
+  weight: 50
   powerupDropChance: 0
   destroySound: {fileID: 8300000, guid: 39a20205f24b7274abe23eae2df47d12, type: 3}
   destroySoundVolume: 1

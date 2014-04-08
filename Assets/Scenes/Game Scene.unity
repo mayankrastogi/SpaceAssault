@@ -4195,11 +4195,11 @@ MonoBehaviour:
   - {fileID: 100006, guid: 118e2b481a0b4a5449b74d31e438f071, type: 2}
   - {fileID: 100002, guid: 796caa1b42815ad4c9c77bdf6f02bc54, type: 2}
   powerups:
-  - {fileID: 100000, guid: 42a63f1504f815946bd4957f2d76aef4, type: 2}
   - {fileID: 100000, guid: 1b8ce6c4db5d4b54b8b9488f5da3c294, type: 2}
   - {fileID: 100002, guid: 89b4c1e115a0e40418ae2390fcf8e395, type: 2}
   - {fileID: 100002, guid: 7c54930615ef25849844cb6df009a6c6, type: 2}
   - {fileID: 100002, guid: 6434713f11991b7479c51be5847c0c8c, type: 2}
+  - {fileID: 100002, guid: fae3a1cda74fa5944a78dfa4306a8d44, type: 2}
   gameOverObject: {fileID: 511085422}
   spawnValues: {x: 6, y: 0, z: 16}
   hazardCount: 10

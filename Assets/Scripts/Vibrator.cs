@@ -28,9 +28,9 @@ public class Vibrator : MonoBehaviour {
 		newPosition = Mathf.MoveTowards (myTransform.position.x, targetPosition, rate * Time.deltaTime);
 		myTransform.position = new Vector3 (newPosition, 0.0f, myTransform.position.z);
 
-		if(newPosition >= spawnPosition+distance)
+		if(newPosition >= spawnPosition + (distance - 0.01f))
 			targetPosition = spawnPosition - distance;
-		else if(newPosition <= spawnPosition-distance)
-			targetPosition = spawnPosition+distance;
+		else if(newPosition <= spawnPosition - (distance - 0.01f))
+			targetPosition = spawnPosition + distance;
 	}
 }

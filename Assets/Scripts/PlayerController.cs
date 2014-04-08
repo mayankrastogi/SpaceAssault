@@ -157,7 +157,7 @@ public class PlayerController : MonoBehaviour
 		// Destroy the game object
 		Destroy (gameObject);
 
-		// Tell game controller that the game is over
-		gameController.GameOver ();
+		// Wait for 2 seconds & tell the game controller that the game is over
+		gameController.Invoke ("GameOver", 2.0f);
 	}
 }
